@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <link rel="shortcut icon" href="assets/icon_site.webp" type="image/x-icon"/>
+      <script type="text/javascript">
+         window.onload = function(){
+         document.querySelector(".menu_mobile").addEventListener("click",function(){
+         if(document.querySelector(".menu nav ul").style.display == 'flex'){
+             document.querySelector(".menu nav ul").style.display = 'none';
+         } else{
+             document.querySelector(".menu nav ul").style.display = 'flex';
+         }
+         });
+         };
+      </script>
+      <title>Projeto Medi_Center</title>
+   </head>
+   <body>
+    <h1 id="topo"></h1>
+      <header>
+         <div class="container">
+            <div class="logo">
+               <a href="#topo"><img src="assets/logo.png"></a>
+            </div>
+            <div class="menu">
+               <nav>
+                  <div class="menu_mobile">
+                     <div class="mm_line"></div>
+                     <div class="mm_line"></div>
+                     <div class="mm_line"></div>
+                  </div>
+                  <ul>
+                     <li class="active"><a href="#topo">HOME</a></li>
+                     <li><a href="#topo">BLOG</a></li>
+                     <li><a href="#topo">PAGES</a></li>
+                     <li><a href="#topo">DEPARTMENTS</a></li>
+                     <li><a href="#topo">TIMETABLE</a></li>
+                     <li><a href="#topo">GALLERY</a></li>
+                     <li><a href="#topo">CONTACT</a></li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </header>
+      <section id="banner">
+         <div class="container column">
+            <div class="banner_headline">
+               <h1>Top notch experience</h1>
+               <h2>Medicenter is a responsive template perfect for all screen sizes</h2>
+            </div>
+            <div class="banner_options">
+               <div class="banner1">
+                  <div class="banner_title">
+                     Emergency Case
+                  </div>
+                  <div class="news_subresume_unborder"></div>
+                  <div class="banner_desc">
+                     If you need a doctor urgently outside of medicenter opening hours, 
+                     call emergency appointment number for emergency service.
+                  </div>
+                  <a href="#topo">Read More</a>
+               </div>
+               <div class="banner2">
+                  <div class="banner_title">
+                     Doctors Timetable
+                  </div>
+                  <div class="news_subresume_unborder"></div>
+                  <div class="banner_desc">
+                     Here at medicenter we have individual doctor's lists. 
+                     Click read more below to see services and current timetable for our doctors.
+                  </div>
+                  <a href="#topo">Read More</a>
+               </div>
+               <div class="banner3">
+                  <div class="banner_title">
+                     Opening Hours
+                  </div>
+                  <div class="news_subresume_unborder"></div>
+                  <div class="banner_desc">
+                     <ul class="horarios">
+                        <li>
+                           <div class="dia">Monday - Friday</div>
+                           <div class="hora">8.00 - 17.00</div>
+                        </li>
+                        <div class="news_subresume_unborder_banner"></div>
+                        <li>
+                           <div class="dia">Saturday</div>
+                           <div class="hora">9.30 - 17.30</div>
+                        </li>
+                        <div class="news_subresume_unborder_banner"></div>
+                        <li>
+                           <div class="dia">Sunday</div>
+                           <div class="hora">9.30 - 15.00</div>
+                        </li>
+                        <div class="news_subresume_unborder_banner"></div>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="geral">
+         <div class="container">
+            <section>
+               <div class="widget">
+                  <div class="widget_title">
+                     <div class="widget_title_text">Latest News</div>
+                     <div class="widget_title_bar"></div>
+                  </div>
+               </div>
+               <div class="widget_body flex">
+                  <article class="effect_hover">
+                     <a href="#topo">
+                        <div class="news_data">
+                           <div class="news_posted_at">12 DEC 12</div>
+                           <div class="news_comments">2</div>
+                        </div>
+                        <div class="news_thumb">
+                           <img src="assets/dr.jpg"/>
+                        </div>
+                        <div class="news_title">
+                           Lorem ipsum dolor sit amat velum
+                        </div>
+                        <div class="news_resume">
+                           It is a long established fact that a reder will be distratcted
+                           by the readable content of a page when looking at its layout.
+                           The point of using Lorem Ipsum is that it has a more-or-less
+                           normal distribution of letters, as opposed to using 'Content here
+                           ,content here', making it look like readable English
+                        </div>
+                     </a>
+                     <div class="news_subresume">
+                        Posted in General, Dental clinic
+                     </div>
+                     <div class="news_subresume_border">
+                        <br>
+                     </div>
+                     <br><br>
+                  </article>
+                  <article class="effect_hover">
+                     <a href="#topo">
+                        <div class="news_data">
+                           <div class="news_posted_at">12 DEC 12</div>
+                           <div class="news_comments">2</div>
+                        </div>
+                        <div class="news_thumb">
+                           <img src="assets/dr.jpg"/>
+                        </div>
+                        <div class="news_title">
+                           Lorem ipsum dolor sit amat velum
+                        </div>
+                        <div class="news_resume">
+                           It is a long established fact that a reder will be distratcted
+                           by the readable content of a page when looking at its layout.
+                           The point of using Lorem Ipsum is that it has a more-or-less
+                           normal distribution of letters, as opposed to using 'Content here
+                           , content here', making it look like readable English
+                        </div>
+                     </a>
+                     <div class="news_subresume">
+                        Posted in General, Dental clinic
+                     </div>
+                     <div class="news_subresume_border">
+                        <br>
+                     </div>
+                     <br><br>
+                  </article>
+                  <article class="effect_hover">
+                     <a href="#topo">
+                        <div class="news_data">
+                           <div class="news_posted_at">12 DEC 12</div>
+                           <div class="news_comments">2</div>
+                        </div>
+                        <div class="news_thumb">
+                           <img src="assets/dr.jpg"/>
+                        </div>
+                        <div class="news_title">
+                           Lorem ipsum dolor sit amat velum
+                        </div>
+                        <div class="news_resume">
+                           It is a long established fact that a reder will be distratcted
+                           by the readable content of a page when looking at its layout.
+                           The point of using Lorem Ipsum is that it has a more-or-less
+                           normal distribution of letters, as opposed to using 'Content here
+                           , content here', making it look like readable English
+                        </div>
+                     </a>
+                     <div class="news_subresume">
+                        Posted in General, Dental clinic
+                     </div>
+                     <div class="news_subresume_border">
+                        <br>
+                     </div>
+                     <br><br>
+                  </article>
+                  <article class="effect_hover">
+                     <a href="#topo">
+                        <div class="news_data">
+                           <div class="news_posted_at">12 DEC 12</div>
+                           <div class="news_comments">2</div>
+                        </div>
+                        <div class="news_thumb">
+                           <img src="assets/dr.jpg"/>
+                        </div>
+                        <div class="news_title">
+                           Lorem ipsum dolor sit amat velum
+                        </div>
+                        <div class="news_resume">
+                           It is a long established fact that a reder will be distratcted
+                           by the readable content of a page when looking at its layout.
+                           The point of using Lorem Ipsum is that it has a more-or-less
+                           normal distribution of letters, as opposed to using 'Content here
+                           , content here', making it look like readable English
+                        </div>
+                     </a>
+                     <div class="news_subresume">
+                        Posted in General, Dental clinic
+                     </div>
+                     <div class="news_subresume_border">
+                        <br>
+                     </div>
+                     <br><br>
+                  </article>
+               </div>
+            </section>
+            <aside>
+               <div class="widget">
+                  <div class="widget_title">
+                     <div class="widget_title_text">Department</div>
+                     <div class="widget_title_bar"></div>
+                     <div class="depart_content"></div>
+                     <div class="depart_content"></div>
+                     <div class="depart_content"></div>
+                     <div class="depart_content"></div>
+                     <div class="depart_content"></div>
+                     <div class="depart_content"></div>
+                  </div>
+               </div>
+               <div class="widget">
+                  <div class="widget_title">
+                     <div class="widget_title_text">Make An Appointment</div>
+                     <div class="widget_title_bar"></div>
+                  </div>
+               </div>
+               <div class="widget_body_text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fugiat mollitia commodi 
+                  praesentium recusandae labore deleniti nam reprehenderit deserunt tempore, iure eius voluptatum 
+                  ut sequi? Qui, deleniti delectus! Accusamus, eligendi?
+               </div>
+               <div class="contacts">
+                <div class="contacts_item">
+                    <div class="contacts_border_top"></div>
+                    <img src="assets/telefone.jpg" class="contacts_icons">
+                    <div class="contacts_content">
+                        <div class="contacts_text">
+                           by phone: <strong>1-800-643-4300</strong>
+                        </div>
+                    </div>
+                    <div class="contacts_border_bottom"></div>
+                </div>
+            </div>
+            
+            <div class="contacts">
+                <div class="contacts_item">
+                    <img src="assets/email.jpg" class="contacts_icons">
+                    <div class="contacts_content">
+                        <div class="contacts_text">
+                            by email:<a href="#topo">medicenter@mail.com</a>
+                            
+                        </div>
+                    </div>
+                    <div class="contacts_border_bottom"></div>
+                </div>
+            </div>
+            
+            <div class="contacts">
+                <div class="contacts_item">
+                    <img src="assets/telefone.jpg" class="contacts_icons">
+                    <div class="contacts_content">
+                        <div class="contacts_text">
+                           or <a href="#topo">fill in the form</a> on our contact page
+                        </div>
+                    </div>
+                    <div class="contacts_border_bottom"></div>
+                </div>
+            </div>
+            
+            </aside>
+         </div>
+      </section>
+      <footer>
+         <div class="container flexColumn">
+            <div class="footer_menu">
+               <div class="fm_1">
+                  <a href="#topo">
+                    <strong>Health Insurace</strong><br>
+                    <span class="fm_subtexto">Here in medicenter we have individual</span>
+                  </a>
+               </div>
+               <div class="fm_2">
+                  <a href="#topo">
+                    <strong> Medical Records</strong><br>
+                    <span class="fm_subtexto">Here in medicenter we have individual</span>
+                  </a>
+               </div>
+               <div class="fm_3">
+                  <a href="#topo">
+                  <strong>Online Bill Pay</strong><br>
+                  <span class="fm_subtexto">Here in medicenter we have individual</span>
+                  </a>
+               </div>
+            </div>
+            <div class="footer_area">
+               <div class="footer_areaitem">
+                  <div class="widget">
+                     <div class="widget_title">
+                        <div class="widget_title_text">Medicenter Clinic</div>
+                        <div class="widget_title_bar"></div>
+                     </div>
+                  </div>
+                  <div class="widget_body">
+                    <div class="footer_text1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, officia tempora. Vitae, 
+                        veritatis quo minus aut enim aliquid eaque eum voluptatibus libero ratione magni excepturi 
+                        fuga dolore odio sed obcaecati?
+                    </div><br>
+                    <ul class="horarios_footer">
+                        <div class="dia">
+                            Meicenter Clinic<br>
+                            33 Farlane<br>
+                            Keilor East<br>
+                            VIC 3033,Australia
+                        </div> 
+                        <li class="hora_container">
+                        <div class="hora_footer">+123 655 655</div><br>
+                        <div class="hora_footer">+123 755 755</div><br>
+                        <div class="hora_footer">medicenter@mail.com</div>
+                        </li>
+                  </div>
+               </div>
+               <div class="footer_areaitem">
+                  <div class="widget">
+                     <div class="widget_title">
+                        <div class="widget_title_text">Latest Posts</div>
+                        <div class="widget_title_bar"></div>
+                     </div>
+                  </div>
+                  <div class="widget_body">
+                    <span class="lastpost">
+                        <a href="#topo">➡ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil 
+                            distinctio ipsam placeat ratione qui voluptates consectetur cupiditate doloribus 
+                            delectus eligendi? Dolore doloribus hic labore quas odit r
+                            epudiandae earum debitis dignissimos.</a> 
+                            <span class="last_sub">10 years ago</span>
+                    </span><br>
+                    <span class="lastpost">
+                        <a href="#topo">➡ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil 
+                            distinctio ipsam placeat ratione qui voluptates consectetur cupiditate doloribus 
+                            delectus eligendi? Dolore doloribus hic labore quas odit r
+                            epudiandae earum debitis dignissimos.</a> 
+                            <span class="last_sub">10 years ago</span>
+                    </span><br>
+                    <span class="lastpost">
+                        <a href="#topo">➡ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil 
+                            distinctio ipsam placeat ratione qui voluptates consectetur cupiditate doloribus 
+                            delectus eligendi? Dolore doloribus hic labore quas odit r
+                            epudiandae earum debitis dignissimos.</a> 
+                            <span class="last_sub">10 years ago</span>
+                    </span><br>
+                  </div>
+               </div>
+               <div class="footer_areaitem">
+                  <div class="widget">
+                     <div class="widget_title">
+                        <div class="widget_title_text">Latest Tweets</div>
+                        <div class="widget_title_bar"></div>
+                     </div>
+                  </div>
+                  <div class="widget_body">
+                    <span class="lastpost_tt">
+                        <a href="#topo">➡ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil 
+                            distinctio ipsam placeat ratione qui voluptates consectetur cupiditate doloribus 
+                            delectus eligendi? Dolore doloribus hic labore quas odit r
+                            epudiandae earum debitis dignissimos.</a> <a href="#topo"><span class="tt_link">t.co/#########</span></a>
+                            <span class="last_sub_tt">5 days ago</span>
+                    </span><br>
+                    <span class="lastpost_tt">
+                        <a href="#topo">➡ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil 
+                            distinctio ipsam placeat ratione qui voluptates consectetur cupiditate doloribus 
+                            delectus eligendi? Dolore doloribus hic labore quas odit r
+                            epudiandae earum debitis dignissimos.</a> <a href="#topo"><span class="tt_link">t.co/#########</span></a>
+                            <span class="last_sub_tt">8 days ago</span>
+                    </span><br>
+                    <span class="lastpost_tt">
+                        <a href="#topo">➡ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil 
+                            distinctio ipsam placeat ratione qui voluptates consectetur cupiditate doloribus 
+                            delectus eligendi? Dolore doloribus hic labore quas odit r
+                            epudiandae earum debitis dignissimos.</a> <a href="#topo"><span class="tt_link">t.co/#########</span></a>
+                            <span class="last_sub_tt">10 days ago</span>
+                    </span><br>
+                  </div>
+               </div>
+            </div>
+            <div class="footer_copy">
+               Página recriada visando ampliar meus estudos, todos os direitos reservados ao criador. Felipe Silva Peterle
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>
